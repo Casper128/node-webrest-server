@@ -1,0 +1,16 @@
+**/node_modules/
+dist/
+
+# Logs 
+.DS_Store
+
+**/logs/
+
+**/.env
+
+mongo/
+postgres/
+
+custom-outputs/
+test-destination/
+coverage/
