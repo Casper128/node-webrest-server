@@ -35,7 +35,7 @@ export class Server {
             return;
         })
         this.app.listen(3000, () => {
-            console.log(`Server running on port ${this.port}`);
+            console.log(`Server running on port ${this.port} and public path /${this.publicPath}`);
         })
     }
 }
